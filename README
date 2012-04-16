@@ -1,0 +1,15 @@
+# circle-eater
+
+This project is meant only to explore using compojure, clj-http and cheshire together with amon-log to record data.
+
+Circle eater searches for data it generates and passes it to amon.There is a timer cycling every n seconds which makes clj-http requests at a randomized endpoint on its own host, which it catches in turn and returns randomly generated json data as a response. It then logs that data to a local amon instance.
+
+## Usage
+
+FIXME: write
+
+## License
+
+Copyright (C) 2012 Thomas Omans
+
+Distributed under the WTFYW License
